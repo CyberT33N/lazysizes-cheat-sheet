@@ -10,6 +10,8 @@ Lazysizes cheat sheet
 ## Getting started
 ```css
 iframe{
+  /*Add the background-image here that it will be shown before the iframe is loaded*/
+  background-image: url("../images/loading.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 50%;
